@@ -1,0 +1,12 @@
+### dependency
+flask
+numpy
+scikit-learn
+flask_cors
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+### local packages -
+-e . 
