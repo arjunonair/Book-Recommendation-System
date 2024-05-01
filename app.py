@@ -46,6 +46,3 @@ def get_recommendations():
     recommended_books, poster_url = recommend_book(book_name)
     recommendations = [{'book': book, 'poster_url': url} for book, url in zip(recommended_books, poster_url)]
     return jsonify(recommendations)
-
-if __name__ == '__main__':
-    app.run(debug=True)

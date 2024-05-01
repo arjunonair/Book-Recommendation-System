@@ -8,5 +8,6 @@ numpy
 matplotlib
 seaborn
 scipy
+gunicorn
 ### local packages -
 -e . 

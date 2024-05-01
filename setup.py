@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 REPO_NAME = "Books-Recommender-System="
 AUTHOR_USER_NAME = "arjunonair"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = ['flask','numpy','scikit-learn', 'flask_cors', 'pandas', 'numpy', 'matplotlib' ,'seaborn' ,'scipy']
+LIST_OF_REQUIREMENTS = ['flask','numpy','scikit-learn', 'flask_cors', 'pandas', 'numpy', 'matplotlib' ,'seaborn' ,'scipy', 'gunicorn']
 
 
 setup(
